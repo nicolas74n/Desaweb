@@ -1,0 +1,41 @@
+/** Global **/
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+
+/* Header */
+
+.site-header.inicio {
+    background: url(../img/casa-encabezado.webp);
+    background-position: center center;
+    background-size: cover;
+    height: 100px;
+    min-height: 600px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 30px;
+}
+
+.navegation a {
+    color: azure;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.navegation a:hover {
+    color: red;
+}
