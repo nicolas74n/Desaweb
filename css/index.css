@@ -11,6 +11,22 @@ body {
     margin-right: auto; */
 }
 
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
 
 /* Header */
 
@@ -20,6 +36,19 @@ body {
     background-size: cover;
     height: 100px;
     min-height: 600px;
+}
+
+.cont-header {
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cont-header h1 {
+    color: white;
+    padding-bottom: 3rem;
 }
 
 .menu {
