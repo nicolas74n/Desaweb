@@ -28,6 +28,37 @@ h4 {
 }
 
 
+/* Utilidades */
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
 /* Header */
 
 .site-header.inicio {
@@ -67,4 +98,123 @@ h4 {
 
 .navegation a:hover {
     color: red;
+}
+
+.nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: 33.3%;
+}
+
+.icon h3 {
+    text-transform: uppercase;
+}
+
+.icon img {
+    width: 200px;
+    height: 200px;
+}
+
+
+/* Casas que se encuentran a la venta */
+
+.casas {
+    flex-basis: 33.3%;
+}
+
+.casas p {
+    font-size: 25px;
+}
+
+.casas img {
+    width: 1000px;
+    height: 500px;
+}
+
+
+/* Feedback */
+
+.feedback {
+    max-width: 1200px;
+    margin: 0 auto 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.feedback h3 {
+    text-align: center;
+}
+
+.feedback h4 {
+    text-align: initial;
+}
+
+.feedback p {
+    font-size: 25px;
+    text-align: left;
+}
+
+.feedback article {
+    /* flex-basis: 33.3%; */
+    /* display: flex; */
+    justify-content: left;
+}
+
+
+/* Footer*/
+
+.contacto {
+    text-align: center !important;
+}
+
+.contacto a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.contacto a:hover {
+    color: red;
+}
+
+
+/* Formulario feedback */
+
+.contenedor p {
+    font-size: 25px;
+}
+
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
 }
